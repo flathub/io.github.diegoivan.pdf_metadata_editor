@@ -76,7 +76,7 @@
         {
           "type": "git",
           "url": "https://github.com/Diego-Ivan/pdf-metadata-editor",
-          "tag": "v1.0.1",
+          "tag": "v1.0.2",
           "commit": "5740184b2b2169653dbf0dc8d648b2c9f6c2b04a"
         }
       ]
