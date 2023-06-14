@@ -1,7 +1,7 @@
 {
   "app-id": "io.github.diegoivan.pdf_metadata_editor",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "43",
+  "runtime-version": "44",
   "sdk": "org.gnome.Sdk",
   "command": "pdf-metadata-editor",
   "finish-args": [
@@ -76,7 +76,7 @@
         {
           "type": "git",
           "url": "https://github.com/Diego-Ivan/pdf-metadata-editor",
-          "commit": "e5da2781806378c334aa21ccb74f937159430c60"
+          "commit": "c6366ebaf4e7dbeec7741e3fe2d1fc20257436d2"
         }
       ]
     }
