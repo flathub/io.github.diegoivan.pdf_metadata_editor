@@ -5,7 +5,6 @@
   "sdk": "org.gnome.Sdk",
   "command": "pdf-metadata-editor",
   "finish-args": [
-    "--share=network",
     "--share=ipc",
     "--socket=fallback-x11",
     "--device=dri",
@@ -76,7 +75,7 @@
         {
           "type": "git",
           "url": "https://github.com/Diego-Ivan/pdf-metadata-editor",
-          "commit": "d1c5e63b2db31e9e158d95a1760ea9c8f4dcf649"
+          "commit": "158a07aa0e151bf80c03a33047dbe3c71d3b1905"
         }
       ]
     }
