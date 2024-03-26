@@ -1,7 +1,7 @@
 {
   "app-id": "io.github.diegoivan.pdf_metadata_editor",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "45",
+  "runtime-version": "46",
   "sdk": "org.gnome.Sdk",
   "command": "pdf-metadata-editor",
   "finish-args": [
@@ -77,7 +77,7 @@
         {
           "type": "git",
           "url": "https://github.com/Diego-Ivan/Paper-Clip.git",
-          "commit" : "e65d4de6f10fe8d3bf59274923fdf81106cfe44d"
+          "commit" : "8b940e7f4c7a892ff918533511b05c1be8d5ebfb"
         }
       ]
     }
