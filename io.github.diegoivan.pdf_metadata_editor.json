@@ -30,7 +30,6 @@
         "/bin"
       ],
       "config-opts": [
-        "-DENABLE_LIBOPENJPEG:STRING=none",
         "-DBUILD_GTK_TESTS=OFF",
         "-DBUILD_QT5_TESTS=OFF",
         "-DBUILD_QT6_TESTS=OFF",
@@ -46,23 +45,31 @@
         {
           "url": "https://gitlab.freedesktop.org/poppler/poppler.git",
           "type": "git",
-          "tag": "poppler-23.01.0",
-          "commit": "4259ff0c2067d302f97d87221a442eec8e88d45c"
+          "tag": "poppler-25.07.0",
+          "commit": "4e9d2aed7c2ca173a9905687f2387b7f5b549b23",
+          "x-checker-data": {
+            "type": "git",
+            "tag-pattern": "^poppler-([\\d.]+)$"
+          }
         }
       ]
     },
     {
       "name": "libexempi",
-      "buildsystem": "autotools",
       "config-opts": [
         "--enable-samples=no",
         "--enable-unittest=no"
       ],
       "sources": [
         {
-          "url": "https://gitlab.freedesktop.org/libopenraw/exempi/-/archive/2.6.4/exempi-2.6.4.tar.gz",
-          "type": "archive",
-          "sha256": "7d1b0e96b848fe3fcf5f5bdb353cc82527b6629e40ed838efe9ffc9108e1b99b"
+          "type": "git",
+          "url": "https://gitlab.freedesktop.org/libopenraw/exempi.git",
+          "tag": "2.6.6",
+          "commit": "f9e868388ce7740ce27409f8629da3e9666cc04f",
+          "x-checker-data": {
+            "type": "git",
+            "tag-pattern": "([\\d.]+)$"
+          }
         }
       ]
     },
@@ -77,7 +84,12 @@
         {
           "type": "git",
           "url": "https://github.com/Diego-Ivan/Paper-Clip.git",
-          "commit" : "c4db98e0bc2b8921d78c9e3fbf3d85ad2a124bd0"
+          "tag": "v5.5.2",
+          "commit": "c4db98e0bc2b8921d78c9e3fbf3d85ad2a124bd0",
+          "x-checker-data": {
+            "type": "git",
+            "tag-pattern": "^v([\\d.]+)$"
+          }
         }
       ]
     }
