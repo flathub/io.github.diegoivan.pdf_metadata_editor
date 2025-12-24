@@ -46,8 +46,8 @@
         {
           "url": "https://gitlab.freedesktop.org/poppler/poppler.git",
           "type": "git",
-          "tag": "poppler-23.01.0",
-          "commit": "4259ff0c2067d302f97d87221a442eec8e88d45c"
+          "tag": "poppler-25.12.0",
+          "commit": "45d43f4685d0596abcecd2587d4b821e8e40879b"
         }
       ]
     },
@@ -60,9 +60,10 @@
       ],
       "sources": [
         {
-          "url": "https://gitlab.freedesktop.org/libopenraw/exempi/-/archive/2.6.4/exempi-2.6.4.tar.gz",
-          "type": "archive",
-          "sha256": "7d1b0e96b848fe3fcf5f5bdb353cc82527b6629e40ed838efe9ffc9108e1b99b"
+          "url": "https://gitlab.freedesktop.org/libopenraw/exempi.git",
+          "type": "git",
+          "tag": "2.6.6",
+          "commit": "f9e868388ce7740ce27409f8629da3e9666cc04f"
         }
       ]
     },
